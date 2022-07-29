@@ -4,8 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Integer[] toSort = new Integer[]{15, 65, 97, 31, 52, 98, 87, 99, 93, 50, 49, 88, 82, 26, 95,
-                12, 16, 23, 37, 89, 14, 58, 17, 92, 38};
+        Integer[] toSort = new Integer[]{15, 65, 97, 31, 52, 98, 87, 99, 100, 21, 6, 7};
         Integer[] sorted = lotterySort(toSort);
         for (int i = 0; i < sorted.length; i++) {
             System.out.print(sorted[i] + " ");
